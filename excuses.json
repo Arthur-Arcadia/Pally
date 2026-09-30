@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "text": "My goldfish just got its learner's permit and needs me in the passenger seat.",
+    "category": "leave"
+  },
+  {
+    "id": 2,
+    "text": "My fridge and washing machine have declared independence. I have to attend their first cabinet meeting.",
+    "category": "leave"
+  },
+  {
+    "id": 3,
+    "text": "My pillow has issued a final warning: report to bed immediately or lose all blanket privileges.",
+    "category": "leave"
+  },
+  {
+    "id": 4,
+    "text": "The Wi-Fi is celebrating its birthday and has requested an hour of silence from all connected devices.",
+    "category": "leave"
+  },
+  {
+    "id": 5,
+    "text": "My shadow clocked out early. I need to catch it before it takes the last bus home.",
+    "category": "leave"
+  },
+  {
+    "id": 6,
+    "text": "I spilled coffee on my keyboard. Now it will only type 'one more espresso'.",
+    "category": "blame"
+  },
+  {
+    "id": 7,
+    "text": "The moon is short-staffed tonight. I've been called in to hold the flashlight.",
+    "category": "leave"
+  },
+  {
+    "id": 8,
+    "text": "My cat called an emergency board meeting. The motion to log me off passed unanimously.",
+    "category": "leave"
+  },
+  {
+    "id": 9,
+    "text": "My noodles have scheduled a mandatory meeting, and the agenda is getting soggy.",
+    "category": "leave"
+  },
+  {
+    "id": 10,
+    "text": "My social battery has reached 1%. Emergency blanket mode is now activating.",
+    "category": "leave"
+  },
+  {
+    "id": 11,
+    "text": "My alarm clocks have formed a union. I need to negotiate a later starting time.",
+    "category": "delay"
+  },
+  {
+    "id": 12,
+    "text": "A cloud outside claims it knows my primary school teacher. I need to investigate.",
+    "category": "leave"
+  },
+  {
+    "id": 13,
+    "text": "My brain's cache is full. Scheduled maintenance will take approximately one entire night.",
+    "category": "leave"
+  },
+  {
+    "id": 14,
+    "text": "The bathroom ducks are hosting a secret disco, and apparently I'm the designated DJ.",
+    "category": "leave"
+  },
+  {
+    "id": 15,
+    "text": "My houseplant has learned to walk and is making a break for the front door.",
+    "category": "leave"
+  },
+  {
+    "id": 16,
+    "text": "Reality is dropping frames. I need to step outside and install a patch.",
+    "category": "blame"
+  },
+  {
+    "id": 17,
+    "text": "A pigeon tapped on my window. The translation app says my dinner is getting cold.",
+    "category": "leave"
+  },
+  {
+    "id": 18,
+    "text": "My chair has ended its shift and refuses to provide any more competitive seating.",
+    "category": "leave"
+  },
+  {
+    "id": 19,
+    "text": "My headset just forecast a severe pillow storm. I'm heading to bed for shelter.",
+    "category": "leave"
+  },
+  {
+    "id": 20,
+    "text": "Tomorrow-me sent an email asking today-me to log off before we both regret it.",
+    "category": "leave"
+  },
+  {
+    "id": 21,
+    "text": "The lift in my building has started telling dad jokes. I need to talk it down.",
+    "category": "delay"
+  },
+  {
+    "id": 22,
+    "text": "My mouse pad has relocated to the edge of the desk and needs help with its visa paperwork.",
+    "category": "delay"
+  },
+  {
+    "id": 23,
+    "text": "Galactic customer service says I've exceeded my daily fun allowance and must log off for an audit.",
+    "category": "leave"
+  },
+  {
+    "id": 24,
+    "text": "My duvet has challenged me to a boss fight. The only available move is sleep.",
+    "category": "leave"
+  },
+  {
+    "id": 25,
+    "text": "Sleep has chosen me for tonight's main quest: close both eyes and remain offline.",
+    "category": "leave"
+  },
+  {
+    "id": 26,
+    "category": "leave",
+    "text": "NASA just promoted my duvet to mission commander. It has ordered an immediate return to bed."
+  },
+  {
+    "id": 27,
+    "category": "leave",
+    "text": "My imaginary dragon swallowed the house keys. I need to negotiate a very warm refund."
+  },
+  {
+    "id": 28,
+    "category": "leave",
+    "text": "The council of kitchen spoons has summoned me. Apparently I stirred up a constitutional crisis."
+  },
+  {
+    "id": 29,
+    "category": "leave",
+    "text": "My future self arrived in a tiny spaceship and confiscated my remaining screen time."
+  },
+  {
+    "id": 30,
+    "category": "decline",
+    "text": "I'd join, but my last brain cell has booked a silent retreat and taken the password with it."
+  },
+  {
+    "id": 31,
+    "category": "decline",
+    "text": "Not this round. My gaming licence has been temporarily revoked by a committee of sleepy penguins."
+  },
+  {
+    "id": 32,
+    "category": "decline",
+    "text": "I promised a nervous asteroid I'd watch its first orbit tonight. It has terrible separation anxiety."
+  },
+  {
+    "id": 33,
+    "category": "decline",
+    "text": "My social battery is running on one emergency potato. I can't risk another match."
+  },
+  {
+    "id": 34,
+    "category": "decline",
+    "text": "I'd love to, but my calendar has been eaten by a time-travelling goat. Every appointment is now yesterday."
+  },
+  {
+    "id": 35,
+    "category": "decline",
+    "text": "I'm sitting this one out. My thumbs have formed a union and rejected the overtime proposal."
+  },
+  {
+    "id": 36,
+    "category": "decline",
+    "text": "A wizard has put me on airplane mode. The only available spell is 'do not disturb'."
+  },
+  {
+    "id": 37,
+    "category": "decline",
+    "text": "Not tonight. My imaginary yacht is sinking and all the imaginary lifeboats require a captain."
+  },
+  {
+    "id": 38,
+    "category": "cancel",
+    "text": "I have to cancel our plan. My goldfish accidentally became mayor and needs a campaign manager."
+  },
+  {
+    "id": 39,
+    "category": "cancel",
+    "text": "Small change of plans: my sofa has opened a portal, and customer support says I must stay for the technician."
+  },
+  {
+    "id": 40,
+    "category": "cancel",
+    "text": "I can't make it after all. A time traveller borrowed this evening and returned a Tuesday from 1847."
+  },
+  {
+    "id": 41,
+    "category": "cancel",
+    "text": "The plan is cancelled on my end. My laundry has reached sentience and is demanding diplomatic recognition."
+  },
+  {
+    "id": 42,
+    "category": "cancel",
+    "text": "I need to cancel. My fridge has begun its opera debut, and I'm the entire audience."
+  },
+  {
+    "id": 43,
+    "category": "cancel",
+    "text": "I can't make our session. My houseplant is getting married and insists I walk it down the windowsill."
+  },
+  {
+    "id": 44,
+    "category": "cancel",
+    "text": "My plans have been abducted by aliens. They promised to return them after a short survey."
+  },
+  {
+    "id": 45,
+    "category": "cancel",
+    "text": "I have to cancel. My calendar challenged a black hole to arm wrestling and lost the whole evening."
+  },
+  {
+    "id": 46,
+    "category": "blame",
+    "text": "It's not my fault. My mouse has clearly chosen violence today."
+  },
+  {
+    "id": 47,
+    "category": "blame",
+    "text": "You need to blame the Wi-Fi. The packets stopped halfway to admire a butterfly."
+  },
+  {
+    "id": 48,
+    "category": "blame",
+    "text": "My keyboard translated 'retreat' into 'perform a dramatic solo entrance'. I'm filing a complaint."
+  },
+  {
+    "id": 49,
+    "category": "blame",
+    "text": "That wasn't a missed shot. Gravity changed its terms and conditions without notifying me."
+  },
+  {
+    "id": 50,
+    "category": "blame",
+    "text": "My monitor is showing the director's cut. Everyone else apparently got the useful version."
+  },
+  {
+    "id": 51,
+    "category": "blame",
+    "text": "The lag is powered by a hamster who just discovered paid leave."
+  },
+  {
+    "id": 52,
+    "category": "blame",
+    "text": "My controller outsourced that move to a confused toaster. We are reviewing the contract."
+  },
+  {
+    "id": 53,
+    "category": "blame",
+    "text": "The hitbox briefly moved to another postcode. I respect its privacy, but I object to the timing."
+  },
+  {
+    "id": 54,
+    "category": "delay",
+    "text": "Give me a minute. My coffee is still installing its courage update."
+  },
+  {
+    "id": 55,
+    "category": "delay",
+    "text": "I'll be a little late. My shoes have entered a staring contest and neither side will blink."
+  },
+  {
+    "id": 56,
+    "category": "delay",
+    "text": "Hold on. My last brain cell is circling the car park looking for the entrance."
+  },
+  {
+    "id": 57,
+    "category": "delay",
+    "text": "A tiny dragon is warming up my keyboard. It refuses to skip the safety briefing."
+  },
+  {
+    "id": 58,
+    "category": "delay",
+    "text": "I need a few minutes. My internet packets are waiting for a very small ferry."
+  },
+  {
+    "id": 59,
+    "category": "delay",
+    "text": "Be right there. My chair is completing its pre-flight checklist."
+  },
+  {
+    "id": 60,
+    "category": "delay",
+    "text": "Give me a moment. The microwave has started a countdown and refuses to explain the mission."
+  },
+  {
+    "id": 61,
+    "category": "delay",
+    "text": "I'm almost ready. My loading screen hired another loading screen to cover its lunch break."
+  }
+]
