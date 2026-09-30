@@ -1,12 +1,31 @@
-# Mermer Discord bot
+# Pally Discord bot
 
-使用 `/social` 在当前频道调出三按钮面板，不向其他频道成员显示触发者。Funny Exit 支持英文借口的私密预览、换一条、发送和取消。Portrait 与 Random Picker 仅允许绑定的游戏语音频道成员在指定文字频道参与。
+Use `/social` to open a three-button panel in the current channel. The user who triggers the command should not be visible to other channel members.
 
-Portrait 选中一个词即提交并关闭私密控件；全部参与者提交后立即出结果，否则最多等待 10 秒，未选词按空白处理。结果来自本地英文模板，无外部 AI。Random Picker 公平轮换选人，仅被选者可以选择 `I'll Invite Someone` 完成本轮或 `Pass / Draw Again` 重抽；所有人都 Pass/离开或 60 秒未回应时结束。语音名单自动同步，新加入者从下一轮参与。
+**Funny Exit** supports a private preview of an English excuse, with options to generate another excuse, send it, or cancel.
 
-运行配置使用 `.env.sample` 中的 `GUILD_ID`、`GAME_VOICE_CHANNEL_ID`、`SOCIAL_TEXT_CHANNEL_ID`。Docker 保留 `STATE_DIR=/app/data` 和 `-v mermer-data:/app/data`，两个功能分别保存轮换记录；私密选词及交互 token 不写入数据文件。更新后重建并替换容器，再用 `/social` 调出新面板，无需新增命令注册。测试使用 `npm test`，不调用真实 Discord。原来的 [部署说明](./PANEL.md) 保留为早期部署参考，其中待开放状态与画像计时规则以本段为准。
+**Portrait** and **Random Picker** only allow members of the bound game voice channel to participate in the designated text channel.
 
-以下为项目继承的 Discord 入门示例文档，示例中的游戏功能和文件结构不代表当前实现。线上部署使用 EC2 + Caddy，无需本机公网隧道。
+For **Portrait**, selecting one word immediately submits the response and closes the private controls. Once all participants have submitted, the result is displayed immediately. Otherwise, the system waits for a maximum of 10 seconds. Participants who do not select a word are treated as having submitted a blank response. Results are generated using local English templates, with no external AI service.
+
+**Random Picker** selects participants using a fair rotation system. Only the selected participant can choose **`I'll Invite Someone`** to complete the current round or **`Pass / Draw Again`** to redraw. The round ends when everyone passes/leaves or when there has been no response for 60 seconds.
+
+The voice-channel member list is synchronized automatically. New members who join the voice channel will participate starting from the next round.
+
+Runtime configuration uses `GUILD_ID`, `GAME_VOICE_CHANNEL_ID`, and `SOCIAL_TEXT_CHANNEL_ID` from `.env.sample`.
+
+For Docker deployment, keep `STATE_DIR=/app/data` and the volume mapping `-v mermer-data:/app/data`. The two features maintain their rotation records separately. Private word selections and interaction tokens must not be written to data files.
+
+After making updates, rebuild the image and replace the running container. Then use `/social` to open the new panel. No additional command registration is required.
+
+Testing is performed with `npm test`, without connecting to or calling the real Discord service.
+
+The original [Deployment Guide](./PANEL.md) is retained as an early deployment reference. The pending-state behavior and Portrait timing rules described in this section take precedence over the original documentation.
+
+The following is an inherited Discord introductory example document. The game features and file structure shown in the example do not represent the current implementation.
+
+Production deployment uses **EC2 + Caddy** and does not require a public tunnel on the local machine.
+
 
 ## Original starter guide
 
