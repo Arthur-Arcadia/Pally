@@ -29,13 +29,13 @@ Production deployment uses **EC2 + Caddy** and does not require a public tunnel 
 ## Feature Demos
 
 ### Random Pick
-![Random Pick demo](assets/pally-demo-gifs/random-pick.gif)
+![Random Pick demo](assets/random-pick.gif)
 
 ### Trait Picker
-![Trait Picker demo](assets/pally-demo-gifs/trait-picker.gif)
+![Trait Picker demo](assets/trait-picker.gif)
 
 ### Excuse Generator
-![Excuse Generator demo](assets/pally-demo-gifs/excuse-generator.gif)
+![Excuse Generator demo](assets/excuse-generator.gif)
 
 ## Original starter guide
 
