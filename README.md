@@ -26,6 +26,16 @@ The following is an inherited Discord introductory example document. The game fe
 
 Production deployment uses **EC2 + Caddy** and does not require a public tunnel on the local machine.
 
+## Feature Demos
+
+### Random Pick
+![Random Pick demo](assets/pally-demo-gifs/random-pick.gif)
+
+### Trait Picker
+![Trait Picker demo](assets/pally-demo-gifs/trait-picker.gif)
+
+### Excuse Generator
+![Excuse Generator demo](assets/pally-demo-gifs/excuse-generator.gif)
 
 ## Original starter guide
 
